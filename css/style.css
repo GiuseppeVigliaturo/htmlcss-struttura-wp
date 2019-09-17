@@ -34,21 +34,31 @@ background-size: cover;
   clear: both;
 }
 
+/* prima colonna  */
 .block1{
   height: 100%;
   width: 20%;
   float: left;
   background: rgb(108, 40, 67);
-  margin-right: 20px;
+
 
 }
 
+.block1 .primo{
+
+ height: 100px;
+ width: 100%;
+}
+
+
+/* seconda colonna */
 .block2{
 
   width: 50%;
   float: left;
   background: rgb(43, 41, 173);
-  margin-right: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .block2 .secondo{
@@ -56,6 +66,7 @@ background-size: cover;
   width: 100%;
 }
 
+/* terza colonna  */
 .block3{
   width:20% ;
   float: right;
@@ -71,7 +82,7 @@ background-size: cover;
   margin-bottom: 15px;
 }
 
-
+/* parte in fondo della pagina */
 
 footer{
   height: 100px;
